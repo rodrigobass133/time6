@@ -102,6 +102,27 @@
         <div class="col-md-1"></div>
       </div>
 
+      <div class="row">
+
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <select class="form-control">
+            <option name="matNV1" id="matNV1">Matemática</option>
+          <option name="lpNV2" id="lpNV2">Lógica de Programação</option>
+          <option name="pooNV3" id="pooNV3">Programação Orientada a Objeto</option>
+          <option name="redNV4" id="redNV4">Redes</option>
+          <option name="engSoftNV5" id="engSoftNV5">Engenharia de Software</option>
+          <option name="lingProgNV6" id="lingProgNV6">Linguagem de Programação para WEB II</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <select class="form-control">
+          <option name="tipoNV1" id="tipoNV1">P1</option>
+          <option name="tipoNV2" id="tipoNV2">P2</option>
+          <option name="tipoNV3" id="tipoNV3">P3</option>
+          </select>
+        </div>
 
 </div></div>
 <br>
