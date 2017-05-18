@@ -107,7 +107,8 @@
         <div class="col-md-1"></div>
         <div class="col-md-4">
           <select class="form-control">
-            <option name="matNV1" id="matNV1">Matemática</option>
+          <option name="selecionarDisciplina" id="selecioneDisciplina">Selecione...</option>
+          <option name="matNV1" id="matNV1">Matemática</option>
           <option name="lpNV2" id="lpNV2">Lógica de Programação</option>
           <option name="pooNV3" id="pooNV3">Programação Orientada a Objeto</option>
           <option name="redNV4" id="redNV4">Redes</option>
@@ -118,19 +119,84 @@
 
         <div class="col-md-2">
           <select class="form-control">
+          <option name="selecionarTipo" id="selecioneTipo">Selecione...</option>
           <option name="tipoNV1" id="tipoNV1">P1</option>
           <option name="tipoNV2" id="tipoNV2">P2</option>
           <option name="tipoNV3" id="tipoNV3">P3</option>
           </select>
         </div>
 
-</div></div>
-<br>
-</div>
+        <div class="col-md-1">
+          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Listar </button></a>
+        </div>
+      </div><br>
 
-</div>
-</div>
-</aside>
+      <br><div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <!-- Table -->
+        <table class="table">
+          <tr>
+            <td colspan="8" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Provas</font></label></td>
+
+          </tr>
+
+          <tr>
+            <td><label for="exampleInputEmail1"><font color="#000000">Redes</font></label></td>
+            <!--<td style="width: 500px"><font color="black"><a href="">Redes</a></td>-->
+            <td><label for="exampleInputEmail1"><font color="#000000">P2</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
+          </tr>
+
+          <tr>
+            <td style="width: 600px"><font color="black"><a href="">Matemática</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+          </tr>
+
+          <tr>
+            <td style="width: 600px"><font color="black"><a href="">Programação Orientada a Objetos</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+          </tr>
+
+          <tr>
+            <td style="width: 600px"><font color="black"><a href="">Lógica de Programação</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P3</font></label></td>
+          </tr>
+
+          <tr>
+            <td style="width: 600px"><font color="black"><a href="">Engenharia de Software</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P2</font></label></td>
+          </tr>
+
+          <tr>
+            <td style="width: 600px"><font color="black"><a href="">Linguagem de Programação para WEB II</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+          </tr>
+
+        </table>
+      </div></div>
+      <br>
+      </div>
+
+      </div>
+      </div>
+      </aside>
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                  </div>
+                    </div>
+
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="js/bootstrap.min.js"></script>
+        </body>
+      </html>
 
 
 
