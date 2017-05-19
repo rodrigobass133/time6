@@ -127,7 +127,7 @@
         </div>
 
         <div class="col-md-1">
-          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Listar </button></a>
+          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Filtrar </button></a>
         </div>
       </div><br>
 
@@ -143,35 +143,44 @@
 
           <tr>
             <td><label for="exampleInputEmail1"><font color="#000000">Redes</font></label></td>
-            <!--<td style="width: 500px"><font color="black"><a href="">Redes</a></td>-->
             <td><label for="exampleInputEmail1"><font color="#000000">P2</font></label></td>
             <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
             <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
           <tr>
-            <td style="width: 600px"><font color="black"><a href="">Matemática</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">Matemática</font></label></td>
             <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
           <tr>
-            <td style="width: 600px"><font color="black"><a href="">Programação Orientada a Objetos</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">Programação Orientada a Objetos I</font></label></td>
             <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
           <tr>
-            <td style="width: 600px"><font color="black"><a href="">Lógica de Programação</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">Lógica de programação</font></label></td>
             <td><label for="exampleInputEmail1"><font color="#000000">P3</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
           <tr>
-            <td style="width: 600px"><font color="black"><a href="">Engenharia de Software</a></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">Engenharia de Software</font></label></td>
             <td><label for="exampleInputEmail1"><font color="#000000">P2</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
           <tr>
-            <td style="width: 600px"><font color="black"><a href="">Linguagem de Programação para WEB II</a></td>
-            <td><label for="exampleInputEmail1"><font color="#000000">P1</font></label></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">Linguagem de Programação para WEB II</font></label></td>
+            <td><label for="exampleInputEmail1"><font color="#000000">P2</font></label></td>
+            <td style="width: 50px"><font color="black"><a href="">Editar</a></td>
+            <td style="width: 100px"><font color="black"><a href="">Excluir</a></td>
           </tr>
 
         </table>
