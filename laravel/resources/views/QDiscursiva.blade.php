@@ -94,15 +94,7 @@
             <ul class="nav nav-tabs">
               <ul class="nav nav-pills">
                 <!--opçoes de tipo de prova-->
-                            <div class="btn-group btn-group-justified" role="group" aria-label="...">
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default" >Discursiva</button>
-                  </div>
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default">Objetiva</button>
-                  </div>
 
-                  </div>
                 </ul>
 
                 <!--componentes questão discursiva-->

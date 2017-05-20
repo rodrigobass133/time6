@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Tela Inicial</title>
-
+    <link rel="shortcut icon" href="icon-images/iesb-logo.ico">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/inicial.css" rel="stylesheet">
@@ -14,9 +14,10 @@
 
   <body>
 
-		<div id="menu">
-		<div class="barra">
+    <div id="menu">
+    <div class="barra">
     <b class="iesbname"><font color="white", size="+2">IESB<font color="red", size="+1">online</font></font></b>
+    <div><img href="#" class="logoff-icon" src="icon-images/logoff-icon.png"></div></div>
       </div><br>
 
       <div class="row">
@@ -74,14 +75,7 @@
 </ul>
               </div><br>
                                                               <!-- fim dos menus -->
-
-                                                                    <!-- sair -->
-
-
-<div id="sair">
-  <span class="glyphicon glyphicon-off" aria-hidden="true" style="color: white"></span>
-    <a href="#" style="background-color: rgba(0,0,0,0.0); color: white">SAIR</a>
-</div> 
+ 
   </div>
 
                                                                     <!-- conteúdo -->

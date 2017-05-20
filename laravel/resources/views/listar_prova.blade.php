@@ -91,43 +91,65 @@
         <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2">
+          <label for="exampleInputEmail1"><font color="#000000">Curso:</font></label>
+        </div>
+
+        <div class="col-md-2">
           <label for="exampleInputEmail1"><font color="#000000">Disciplina:</font></label>
         </div>
-        <div class="col-md-2"></div>
+
+        <div class="col-md-1"></div>
         <div class="col-md-2">
           <label for="exampleInputEmail1"><font color="#000000">Tipo de Prova:</font></label>
         </div>
 
-
-        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <label for="exampleInputEmail1"><font color="#000000">Turma:</font></label>
+        </div>
       </div>
 
       <div class="row">
 
-        <div class="col-md-1"></div>
-        <div class="col-md-4">
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
           <select class="form-control">
-          <option name="selecionarDisciplina" id="selecioneDisciplina">Selecione...</option>
-          <option name="matNV1" id="matNV1">Matemática</option>
-          <option name="lpNV2" id="lpNV2">Lógica de Programação</option>
-          <option name="pooNV3" id="pooNV3">Programação Orientada a Objeto</option>
-          <option name="redNV4" id="redNV4">Redes</option>
-          <option name="engSoftNV5" id="engSoftNV5">Engenharia de Software</option>
-          <option name="lingProgNV6" id="lingProgNV6">Linguagem de Programação para WEB II</option>
+          <option>---</option>
+          <option>ADS</option>
+          <option>Engenharia</option>
+          <option>Jogos Digitais</option>
+          </select>
+        </div>
+
+
+        <div class="col-md-3">
+          <select class="form-control">
+          <option>---</option>
+          <option>Matemática</option>
+          <option>Lógica de Programação</option>
+          <option>Programação Orientada a Objetos</option>
+          <option>Redes</option>
           </select>
         </div>
 
         <div class="col-md-2">
           <select class="form-control">
-          <option name="selecionarTipo" id="selecioneTipo">Selecione...</option>
-          <option name="tipoNV1" id="tipoNV1">P1</option>
-          <option name="tipoNV2" id="tipoNV2">P2</option>
-          <option name="tipoNV3" id="tipoNV3">P3</option>
+          <option>---</option>
+          <option>P1</option>
+          <option>P2</option>
+          <option>P3</option>
           </select>
         </div>
 
+        <div class="col-md-2">
+          <select class="form-control">
+          <option>---</option>
+          <option>ADS1</option>
+          <option>ADS2</option>
+          <option>ADS3</option>
+          </select>
+        </div>
         <div class="col-md-1">
-          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Filtrar </button></a>
+          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Filtrar  </button></a>
         </div>
       </div><br>
 
@@ -184,7 +206,31 @@
           </tr>
 
         </table>
-      </div></div>
+
+      </div>
+
+      <nav aria-label="Page navigation" align="center">
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+
+    </div>
       <br>
       </div>
 

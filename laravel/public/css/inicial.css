@@ -1,6 +1,17 @@
 .iesbname{
 	margin-left: 10px;
 }
+
+.logoff-icon{
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 1200px;
+	display: flex;
+	position: relative;
+}
+
 .barra{
 	top: 0px;
 	right: 0px;
@@ -49,18 +60,6 @@
 #icon-plus, #icon-list{
 	width: 10px;
 	height: 10px;
-}
-
-#sair{
-	margin-left: 20px;
-	text-align: center;
-	background-color: black;
-	border-radius: 7px;
-	font-family: Arial;
-}
-
-#sair:hover{
-	box-shadow: 0 1px 10px rgba(255,0,0,0.7);
 }
 
 #conteudo{

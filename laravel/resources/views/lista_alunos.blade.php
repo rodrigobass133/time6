@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Criar Provas</title>
+    <title>Lista de Alunos</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,8 +14,8 @@
 
   <body>
 
-		<div id="menu">
-		<div class="barra">
+    <div id="menu">
+    <div class="barra">
     <b class="iesbname"><font color="white", size="+2">IESB<font color="red", size="+1">online</font></font></b>
       </div><br>
 
@@ -60,7 +60,7 @@
             <a href="#"><i class="fa fa-plus"></i><img id="icon-plus" src="icon-images/icon-plus.png"> Criar Prova</a>
         </li>
             <li>
-              <a href="#"><i class="fa fa-list-alt"></i> <img id="icon-list" src="icon-images/icon-list.png"> Lista de Provas</a>
+              <a href="#"><i class="fa fa-list-alt"></i> <img id="icon-list" src="icon-images/icon-list.png">Lista de Provas</a>
             </li>
       </ul>
   </li>
@@ -72,22 +72,18 @@
   <li class="dropdown">
     <a href="#" style="background-color: rgba(0,0,0,0.0); color: white"> <img id="icon-correcao" src="icon-images/icon-correcao.png"> Correção</a>
 </ul>
-              </div><br>
+</div>
+</div>
                                                               <!-- fim dos menus -->
 
- 
-  </div>
-
                                                                     <!-- conteúdo -->
-
-                                                                <!-- criar prova -->
 
 <div class="col-md-9">
   <div class="panel-group" id="conteudo">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 align="center"><span class="label label-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">CRIAR PROVA</span></h3></div><br>
-       
+        <h3 align="center"><span class="label label-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">LISTA DE ALUNOS</span></h3></div><br> 
+
         <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2">
@@ -100,12 +96,8 @@
 
         <div class="col-md-1"></div>
         <div class="col-md-2">
-          <label for="exampleInputEmail1"><font color="#000000">Tipo de Prova:</font></label>
-        </div>
-
-        <div class="col-md-2">
           <label for="exampleInputEmail1"><font color="#000000">Turma:</font></label>
-        </div>        
+        </div>
       </div>
 
       <div class="row">
@@ -113,7 +105,6 @@
       <div class="col-md-1"></div>
       <div class="col-md-2">
           <select class="form-control">
-          <option>---</option>
           <option>ADS</option>
           <option>Engenharia</option>
           <option>Jogos Digitais</option>
@@ -123,71 +114,112 @@
         
         <div class="col-md-3">
           <select class="form-control">
-          <option>---</option>
-          <option>Matemática</option>
-          <option>Lógica de Programação</option>
-          <option>Programação Orientada a Objeto</option>
           <option>Redes</option>
+          <option>Lógica de Programação</option>
+          <optio>Programação Orientada a Objeto</option>
           </select>
         </div>
 
         <div class="col-md-2">
           <select class="form-control">
-          <option>---</option>
-          <option>P1</option>
-          <option>P2</option>
-          <option>P3</option>
-          </select>
-        </div>
-
-        <div class="col-md-2">
-          <select class="form-control">
-          <option>---</option>
           <option>ADS1</option>
           <option>ADS2</option>
           <option>ADS3</option>
           </select>
-        </div>
+        </div>        
         <div class="col-md-1">
-          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"><img id="icon-plus" src="icon-images/plus-icon.png" style="width: 15px; height: 15px;"> Criar  </button></a>
+          <a href="#"><button type="button" class="btn btn-default" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><font color="white"> Buscar  </button></a>
         </div>
-      </div><br> 
+      </div><br><br>
 
       <div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-10">
-  <!-- Table -->
-  <table class="table">
-    <tr>
-      <td colspan="4" width="300px;" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Enunciados:</font></label></td>
-      <td colspan="1" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Valor</td>
-      <td align="center" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Excluir</td>
-    </tr>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <label for="exampleInputEmail1"><font color="#000000" style="font-size: 17px;">Aluno: Francisco Milton</font></label>
+        </div>
 
-    <tr>
-      <td></td>
-    </tr>
-    
-  </table>
-</div></div><br>
-
-<div class="row">
-<div class="col-md-1"></div>
-<button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">Adicionar questão</button>
-</div><br>
-
-<br><div class="modal-footer">
-
-                <a href="#"><button type="button" class="btn btn-default" data-dismiss="modal"> Cancelar </button></a>
-                <a href="#"> <button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"> Salvar </button></a>
-            </div>
-</div>
-
-</div>  
-</div>
-</aside>
-</div>
+        <div class="col-md-3"></div>
+        <div class="col-md-2">
+          <label for="exampleInputEmail1"><font color="#000000" style="font-size: 17px;">Nota: </font></label>
+          <input style="color: black;" type="textfield" align="center" name="valor" size="1" maxlength="3" disabled />
+        </div>
       </div>
+        
+        <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+          <div class="panel-group" style="text-align: center;">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.1),  rgba(255,0,0, 0.5), rgba(0,0,0, 0.1));">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="color: white">Visualizar</a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+
+                          <div class="col-md-1"></div>
+                          <label for="exampleInputEmail1"><font color="#000000"><u>Gabarito Aluno:</u></font></label><br>
+
+                          <br>
+                          
+                          <img src="gaba.png" width="550"><br>
+
+
+                          
+                          </div>
+                      </div>
+                  </div>
+    </div></div>
+
+    <div class="col-md-1">
+      <button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">Corrigir</button>
+    </div>
+      </div><br>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <label for="exampleInputEmail1"><font color="#000000" style="font-size: 17px;">Aluno: Robsu Clayto</font></label>
+        </div>
+
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+          <label for="exampleInputEmail1"><font color="#000000" style="font-size: 17px;">Nota:</font></label>
+          <input style="color: black;" type="textfield" align="center" name="valor" size="1" maxlength="3" disabled />
+        </div>
+      </div>
+
+       <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+          <div class="panel-group" style="text-align: center;">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.5), rgba(0,0,0, 0.3));">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="color: white;">Visualizar</a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+
+                          <div class="col-md-1"></div>
+                          <label for="exampleInputEmail1"><font color="#000000"><u>Gabarito Aluno:</u></font></label><br>
+
+                          <br>
+                          
+                          <img src="gaba.png" width="550"><br>
+
+                          </div>
+                      </div>
+                  </div>
+    </div></div>
+
+    <div class="col-md-1">
+      <button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">Corrigir</button>
+    </div>
+      </div><br>
+
     </div>
   </div>
 </div>
@@ -201,4 +233,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-  
