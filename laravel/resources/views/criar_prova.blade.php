@@ -153,6 +153,29 @@
         </div>
       </div><br> 
 
+      <div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+  <!-- Table -->
+  <table class="table">
+    <tr>
+      <td colspan="4" width="300px;" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Enunciados:</font></label></td>
+      <td colspan="1" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Valor</td>
+      <td align="center" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"><label for="exampleInputEmail1"><font color="#FFFFFF">Excluir</td>
+    </tr>
+
+    <tr>
+      <td></td>
+    </tr>
+    
+  </table>
+</div></div><br>
+
+<div class="row">
+<div class="col-md-1"></div>
+<button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">Adicionar questão</button>
+</div><br>
+
 <br><div class="modal-footer">
 
                 <a href="#"><button type="button" class="btn btn-default" data-dismiss="modal"> Cancelar </button></a>
