@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Tela Inicial</title>
-
+    <link rel="shortcut icon" href="icon-images/iesb-logo.ico">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/inicial.css" rel="stylesheet">
