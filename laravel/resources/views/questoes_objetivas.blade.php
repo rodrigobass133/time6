@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Criar Provas</title>
+    <title>Criar questão</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -82,16 +82,18 @@
 
                                                                 <!-- questões objetivas -->
 
-<div class="col-md-9">
+<div class="col-md-8">
   <div class="panel-group" id="conteudo">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 align="center"><span class="label label-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">CRIAR PROVA</span></h3></div><br>
-
+Criar Questão</div>
+<div class="panel-body">
+  <ul class="nav nav-tabs">
         <dir>
     <h4><span class="label label-default">Enunciado:</span></h4><br>
   </dir>
-      <textarea class="form-control" rows="5" style="resize: none;!important" ></textarea><br>
+
+      <textarea class="form-control" rows="5" style="resize: none;!important" > </textarea><br>
 
   <dir>
   <h4><span class="label label-default">Alternativas:</span></h4><br>
@@ -151,33 +153,51 @@
   </div>
   </div>
   </dir>
-
+  <div class="row">
+    <div class="col-md-2 col-md-offset-1">
   <h4><span class="label label-default">Gabarito:</span></h4>
-  <select name="TGabarito" id="CGabarito">
+
+  <select class="form-control" name="TGabarito" id="CGabarito">
     <option> A </option>
     <option> B </option>
     <option> C </option>
     <option> D </option>
     <option> E </option>
   </select>
+</div>
+</div>
   <br><br>
-
+  <div class="row">
+    <div class="col-md-2 col-md-offset-1">
   <h4><span class="label label-default">Disciplinas:</span></h4>
-  <select name="TDisciplina" id="CDisciplina">
+
+  <select class="form-control"name="TDisciplina" id="CDisciplina">
     <option> Linguagem de Programação </option>
     <option> Banco de Dados </option>
     <option> Programação Objeto </option>
   </select>
-
+</div>
+</div>
   <br> <br>
   </dir>
+  <div class="modal-footer">
+  <div class="row">
 
-  <button type="button" name="Salvar" class="btn btn-danger">Salvar</button>
-  <button type="submit" name="Cancelar"class="btn btn-default">Cancelar</button>
-
-  </br> </br>
+ <div class="col-md-10">
+ <button type="button" class="btn btn-default">
+Salvar
+</button>
+</div>
+<div class="col-md-2">
+<button type="button" class="btn btn-default">
+Cancelar
+</button>
+</div>
+</div>
+   </div>
   </dir>
-
+</div>
+</div>
 
     </form>
 

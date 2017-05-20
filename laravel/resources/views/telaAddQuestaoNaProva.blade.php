@@ -89,15 +89,13 @@
         <h3 align="center"><span class="label label-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));">ADICIONAR QUESTÃO</span></h3></div><br>
 
         <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-2">
-          <label for="exampleInputEmail1"><font color="#000000">Curso:</font></label>
-        </div>
 
+<div class="col-md-1"></div>
         <div class="col-md-2">
           <label for="exampleInputEmail1"><font color="#000000">Disciplina:</font></label>
         </div>
-<div class="col-md-1"></div>
+
+        <div class="col-md-1"></div>
         <div class="col-md-2">
           <label for="exampleInputEmail1"><font color="#000000">Tipo:</font></label>
         </div>
@@ -107,17 +105,11 @@
 
       <div class="row">
 
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
-          <select class="form-control">
-          <option name="turmNV3" id="turmNV3">ADS</option>
-          <option name="turmNV1" id="turmNV1">Engenharia</option>
-          <option name="turmNV2" id="turmNV2">Jogos Digitais</option>
-          </select>
-        </div>
 
 
+<div class="col-md-1"></div>
         <div class="col-md-3">
+
           <select class="form-control">
             <option name="matNV1" id="matNV1">Matemática</option>
           <option name="lpNV2" id="lpNV2">Lógica de Programação</option>
