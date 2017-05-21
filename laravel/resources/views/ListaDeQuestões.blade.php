@@ -215,6 +215,12 @@
       <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button></td>
     </tr>
   </table>
+  
+  <div class="modal-footer">
+
+                  <a href="#"><button type="button" class="btn btn-default" data-dismiss="modal"> Cancelar </button></a>
+                  <a href="#"><button type="button" class="btn btn-primary" style="background-color: black; background-image: linear-gradient(45deg, rgba(0,0,0,0.3),  rgba(255,0,0, 0.3));"> Salvar </button></a>
+              </div>
 
 </div>
 </div>
