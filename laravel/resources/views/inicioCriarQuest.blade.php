@@ -8,8 +8,8 @@
     <title>Tela Inicial</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/inicial.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/css/inicial.css" rel="stylesheet">
   </head>
 
   <body>
@@ -96,10 +96,10 @@
                 <!--opçoes de tipo de prova-->
                             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                   <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default" >Discursiva</button>
+                   <a href="{{url('questoes/discursiva')}}"> <button type="button" class="btn btn-default" >Discursiva</button></a>
                   </div>
                   <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default">Objetiva</button>
+                    <a href="{{url('questoes/discursiva')}}"><button type="button" class="btn btn-default">Objetiva</button></a>
                   </div>
 
                   </div>
