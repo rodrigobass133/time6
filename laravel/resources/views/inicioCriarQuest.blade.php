@@ -8,8 +8,8 @@
     <title>Tela Inicial</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/inicial.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/css/inicial.css" rel="stylesheet">
   </head>
 
   <body>
